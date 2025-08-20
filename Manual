@@ -1,0 +1,1404 @@
+# 📞 Manual Agicontact Discador  
+## 🛠 Manual de Treinamento e Operação — Sistema Agicontact Discador (Agitel)  
+
+
+## 📂 Estrutura Completa do Manual  
+
+### 1️⃣ Acesso ao Produto e Configurações  
+- **1.1** Acesso ao Produto  
+- **1.2** Inserindo dados da Empresa  
+- **1.3** Configurações Técnicas  
+- **1.4** Cadastro da Empresa  
+
+### 2️⃣ Dashboard 
+- Visão Geral 
+
+### 3️⃣ Pessoas, Ramais e Configurações  
+- **3.1** Ramais e Configurações  
+- **3.2** Pessoas e Configurações  
+- **3.3** Grupo de Ramais e Configurações  
+- **3.4** Equipes de Trabalho  
+
+### 4️⃣ Terminação — Configurações  
+- **4.1** Troncos e Configurações  
+- **4.2** Plano de Discagem  
+
+### 5️⃣ Números Entrantes  
+- **5.1** Lista de Números Entrantes  
+- **5.2** Configurando Números Entrantes  
+
+### 6️⃣ Recursos PABX  
+- **6.1** Arquivos de Áudio  
+- **6.2** Filas e Configurações  
+- **6.3** Fluxo de Chamadas  
+- **6.4** Grupo de Espera  
+- **6.5** Números Internos  
+- **6.6** Salas de Conferência  
+- **6.7** URAs e Configurações  
+
+### 7️⃣ Configurações Gerais  
+- **7.1** Centro de Custos  
+- **7.2** Configurações Gerais  
+- **7.3** Lista de Feriados  
+- **7.4** Lista de Pausas  
+
+### 8️⃣ Campanhas  
+- **8.1** Lista de Campanhas  
+- **8.2** Criando Campanhas  
+- **8.3** Agendamentos  
+- **8.4** Lista de Áudios  
+- **8.5** Números Bloqueados  
+- **8.6** Lista de Classificação e Renitências  
+
+### 9️⃣ Relatórios  
+- **9.1** Filas de Atendimentos  
+- **9.2** Ocupação dos Operadores  
+- **9.3** Relatórios de Operação  
+- **9.4** Relatórios — ASR  
+- **9.5** Ações dos Operadores  
+- **9.6** Fila de Atendimento  
+- **9.7** Download  
+
+###  🔟 Integrações  
+- **10.1** Ações  
+- **10.2** API  
+- **10.3** Exact Spotter  
+- **10.4** FINAZ  
+
+---
+
+### CONTEÚDO DETALHADO
+## 1️⃣ Acesso ao Produto e Configurações  
+
+### 1.1 🔐 Acesso ao Produto  
+
+> **Acesso ao Suite:** [agicontact.agitel.com.br/suite](http://agicontact.agitel.com.br/suite)  
+
+A plataforma **Agicontact** integra dois produtos principais:  
+- **PABX** — solução para gestão e roteamento de chamadas.  
+- **Discador** — voltado para *call centers*, com recursos específicos para campanhas de vendas e/ou atendimento.  
+
+Cada produto opera de forma **independente**, possuindo funcionalidades e programações próprias.
+
+---
+
+#### 🗝 Login e Primeiro Acesso  
+
+1. **Recebendo os dados de acesso**  
+   - A **Operadora** fornecerá o **link de acesso**, juntamente com **usuário** e **senha**.  
+
+2. **Procedimento de login**  
+   - Inserir usuário e senha nos campos indicados.  
+   - Clicar no botão **"Entrar"** para autenticar no sistema.  
+
+💡 **Dica:**  
+Certifique-se de digitar corretamente suas credenciais, respeitando maiúsculas e minúsculas.
+
+![Logotipo da empresa](https://drive.google.com/file/d/1WMPdMlM6cUAMCCbbTXS7jvqRgSaNuMVM/view?usp=sharing)
+
+A interface apresenta:  
+- Campos para **usuário** e **senha**  
+- Logotipo da plataforma  
+- Botão **"Entrar"** para acesso ao sistema  
+
+---
+
+## 2️⃣ Dashboard  
+
+### 📊 Visão Geral  
+O **Dashboard** agrupa informações essenciais para **monitoramento** e **análise de desempenho** do discador em tempo real.  
+
+    *Referência visual*: **Tela do Dashboard**  
+
+---
+
+### ⚙️ Funcionalidades Principais  
+
+- **📈 Utilização**  
+  Mostra o total de chamadas realizadas, com **gastos correntes** do dia e do mês.  
+
+- **🔄 Chamadas Simultâneas**  
+  - Gráfico com escala de 5 minutos, em **tempo real**.  
+  - Função *zoom* para análise detalhada do período selecionado.  
+
+- **📡 Ramais Online/Offline**  
+  Apresenta o número total de ramais em uso ou inativos no momento.  
+
+- **🎯 Filas**  
+  - Quantidade de filas ativas em tempo real.  
+  - Acumulado do dia com indicadores:
+    - **TME** — Tempo Médio de Espera  
+    - **TMA** — Tempo Médio de Atendimento  
+    - **% Abandono** — Chamadas abandonadas  
+
+- **🗓 Uso do Mês Atual**  
+  Totalização de chamadas **realizadas** e **recebidas** no mês.  
+
+- **💾 Espaço de Uso do Disco**  
+  Indicador visual da capacidade e ocupação do armazenamento.  
+ 
+- **Menu Lateral** — Acesso rápido a:  
+  - Dashboard  
+  - Empresas  
+  - Chamadas  
+  - Permissões e Usuários  
+  - Segurança  
+  - Relatórios  
+  - Diagnóstico  
+
+---
+
+## 3️⃣ Pessoas, Ramais e Configurações  
+
+### 3.1 ☎️ Ramais e Configurações  
+
+#### 3.1.1 📋 Lista de Ramais  
+
+A tela apresenta a **lista de ramais cadastrados**, exibindo:  
+- **Dados** do ramal  
+- **Status** (online/offline)  
+- **Acesso rápido** às configurações  
+
+
+### 🔍 Ferramentas de Busca e Programação  
+
+- **Filtrar** — busca por **número**, **nome** ou **plano de discagem**.  
+- **+ Inserir Novo Ramal** — adiciona um novo ramal ao sistema.  
+- **Importar** — carrega uma lista de ramais a partir de arquivo.  
+- **Exportar** — gera arquivo com os dados dos ramais cadastrados.  
+
+
+### ⚙️ Funções dos Botões de Configuração  
+
+- 📧 **Consulta caixa postal**
+- 🚫 **Bloquear ou liberar ramal** (offline/online)
+- ✏️ **Editar** dados do ramal
+- 🗑️ **Excluir** ramal selecionado
+
+      *Referência visual*: **Tela “Lista de Ramais”**  
+
+Contém colunas de **identificação**, **status**, **ações rápidas** e **menu de configurações**.
+
+---
+
+#### 3.1.2 ⚙️ Configurando Ramais  
+
+**Etapa: Inserindo dados do Ramal**  
+
+     *Referência visual*: **Configuração de Ramal**  
+
+
+### 🛠 Recursos de Programação  
+
+1. **📌 Tipo do Ramal**  
+   - **`PABX`** — Opera de acordo com as atribuições definidas nos parâmetros de configuração.  
+   - **`PA` (Ponto de Atendimento)** — Ramal de nome único utilizado por vários operadores da Lista de Pessoas.  
+
+2. **🔢 Número do Ramal**  
+   Definido pelo **programador/administrador** (usuário de autenticação).  
+
+3. **🔑 Senha SIP**  
+   Gerada automaticamente pelo sistema, mas pode ser alterada manualmente.  
+
+4. **🏷 Nome do Ramal**  
+   Nome atribuído pelo administrador. *Exemplo:* `Vendas 1`.  
+
+5. **👥 Grupo de Ramais**  
+   Associa o ramal a um grupo previamente cadastrado.  
+
+6. **📞 Caller ID**  
+   Número exibido no destino da chamada.  
+
+7. **🗺 Plano de Discagem**  
+   Define as rotas de acesso aos troncos e custos das chamadas externas. Selecionar na lista de planos disponíveis.  
+
+8. **🎵 Grupo de Música de Espera**  
+   Música tocada para chamadas entrantes quando o ramal não atende ou está ocupado.  
+
+9. **↔️ Puxar Chamadas**   
+   Define se o ramal pode ou não puxar chamadas de outros ramais ou grupos.  
+
+10. **💼 Centro de Custo**  
+    Associa o ramal a um centro de custo específico.  
+
+11. **⏱ Habilitar Timer**  
+    Previne chamadas presas; exige renovação periódica (*SIP Options*) no tempo configurado. Se não houver renovação, a chamada é encerrada.  
+
+12. **💡 Habilitar BLF** (*Busy Lamp Field*)  
+    Indica visualmente quando o ramal está ocupado.  
+
+13. **🎧 Escutar Chamada**  
+    Permite ouvir a chamada de outro ramal discando `55 + número do ramal`.  
+
+14. **🎙 Gravar Chamada**  
+    Ativa a gravação automática do áudio das chamadas.  
+
+15. **🚫 Bloquear Ramal**  
+    Impede uso do ramal — não envia nem recebe ligações.  
+
+16. **🌎 Código de Área**  
+    Prefixo necessário para chamadas externas. Varia de **01 a 99** conforme a região.  
+
+---
+
+#### 3.1.3 ⚙️ Configurando Segurança  
+
+Este recurso **restringe o acesso** de um ramal, permitindo comunicação **apenas** com IPs e intervalos (ranges) previamente configurados.
+
+     *Referência visual*: **Configuração de Segurança de Ramal**  
+
+### 🔒 Padrão de Programação  
+
+1. **🟢 Habilitar o recurso**  
+   Ativar a chave que libera a configuração de segurança.  
+
+2. **💻 Inserir IP inicial**  
+   - Digitar os **4 grupos numéricos** do IP inicial.  
+   - Exemplo: `111.111.111.0`  
+   - O **4º grupo = 0** define o início do range.  
+
+3. **📏 Definir Range (CIDR)**  
+   - Escolher um código entre **/32** e **/1** para determinar o tamanho do intervalo permitido.  
+
+---
+
+### 📚 Exemplos de Programação de Range  
+
+| Código CIDR | Qtde. de IPs | Intervalo de IPs                                         |
+|-------------|--------------|---------------------------------------------------------|
+| **/32**     | 1            | `111.111.111.0` à `111.111.111.0`                        |
+| **/31**     | 2            | `111.111.111.0` à `111.111.111.1` *(0, 1)*               |
+| **/30**     | 4            | `111.111.111.0` à `111.111.111.3` *(0, 1, 2, 3)*         |
+| **/24**     | 256          | `111.111.111.0` à `111.111.111.255` *(0,1,2,...,255)*    |
+
+
+
+### 💡 Observação Importante  
+Para **validar** e aplicar o range definido, clique no botão **Salvar** na parte inferior da tela.
+
+---
+
+#### 3.1.4 📮 Caixa Postal  
+
+A função **Caixa Postal**, quando habilitada, grava as **chamadas não atendidas** e envia notificações automáticas para o **e-mail programado** do usuário ou do setor responsável.
+
+     *Referência visual*: **Configuração de Caixa Postal**  
+
+### ⚙️ Características  
+
+- **🎙 Gravação Automática** — Armazena o áudio das chamadas não atendidas.  
+- **📧 Notificação por E-mail** — Envia um alerta para o endereço previamente configurado.  
+- **🔒 Controle de Ativação** — Recurso pode ser habilitado ou desabilitado pelo administrador do sistema.  
+
+
+
+💡 **Dica de Uso:**  
+Manter o e-mail atualizado garante o recebimento das notificações e evita perda de registros importantes.
+
+---
+
+#### 3.1.5 📤 Encaminhamento de Chamadas  
+
+Define as **ações de roteamento** que serão aplicadas quando o ramal receber uma chamada.  
+
+O encaminhamento é determinado de acordo com:  
+- **Status do Ramal** (`2` ou `3`)  
+- **Opção "Todas as Chamadas"**  
+- **Destino escolhido** no **Menu de Serviços**  
+
+         *Referência visual*: **Configuração de Encaminhamento de Chamadas**  
+
+
+
+#### 🔄 Tipos de Encaminhamento  
+
+1. **📦 Todas as Chamadas**  
+   - Encaminha **todas as chamadas recebidas** para a ação selecionada no **Menu de Serviços**.  
+   - **Atenção:** ao ativar essa opção, as configurações abaixo ficam desativadas.  
+
+2. **📴 Status Offline / Não Atendida**  
+   - Chamada recebida com o ramal **offline** ou **no gancho** é encaminhada para a ação configurada no **Menu de Serviços**.  
+
+3. **⛔ Status Ocupado / Indisponível**  
+   - Chamada recebida com o ramal **ocupado** ou **indisponível** é encaminhada para a ação configurada no **Menu de Serviços**.  
+
+
+#### 🎯 Opções de Destino no Encaminhamento  
+
+- ☎️ **Ramal** — Encaminha para outro ramal específico.  
+- 📋 **Fila** — Direciona para fila de atendimento.  
+- 🗂 **URA** — Encaminha para Unidade de Resposta Audível.  
+- 📮 **Caixa Postal** — Grava a mensagem do chamador e envia ao e-mail configurado.  
+- 🔀 **Fluxo de Chamada** — Segue um fluxo de atendimento pré-definido.  
+- 🌐 **Número Externo** — Encaminha para um número fora do sistema.  
+- ⚙️ **Avançado** — Permite configurações personalizadas de roteamento.  
+
+---
+
+### 3.2 👥 Pessoas e Configurações  
+
+#### 3.2.1 📋 Lista de Pessoas e Usuários  
+
+A tela apresenta a **lista de pessoas cadastradas** no sistema, incluindo:  
+- **Dados do usuário**  
+- **Autorizações de acesso** ao discador  
+- **Classificação por nível de acesso**:
+  - 👑 **Administrador**  
+  - 🏢 **Empresa**  
+  - 🎯 **Supervisor**  
+  - 🎧 **Operador**  
+
+
+
+### 🔍 Ferramentas de Busca e Inclusão  
+
+- **Filtrar** — pesquisa por **nome** ou **tipo de usuário**.  
+- **+ Inserir Nova Pessoa** — cria um novo registro de usuário.  
+
+
+### ⚙️ Função dos Botões de Configuração  
+
+- ✏️ **Editar Usuário** — altera dados cadastrais do usuário.  
+- ✏️ **Editar Permissões** — ajusta os níveis de acesso.  
+- 🚫 **Bloquear Usuário** — restringe temporariamente o acesso ao sistema.  
+- 👁️ **Inspecionar Operador** — exibe informações e status de operação em tempo real.  
+- 🗑️ **Excluir Usuário** — remove definitivamente o usuário do sistema.  
+
+
+
+         *Referência visual*: **Tela “Lista de Pessoas”**  
+Contém colunas para identificação, nível de acesso, status e botões de ação.
+
+---
+
+#### 3.2.2 ➕ Inserindo e Configurando Pessoas  
+
+A opção **+ Inserir nova Pessoa** abre a tela de configuração de um novo usuário no sistema.  
+
+     *Referência visual*: **Inserir Pessoa**  
+
+O sistema permite criar dois tipos de usuários:  
+- 🎯 **Supervisor**  
+- 🎧 **Operador**  
+
+
+
+#### 1️⃣ Criando um Usuário do Tipo “Supervisor”  
+
+#### 🛠 Recursos de Programação  
+
+- **👤 Inserir Dados Pessoais**  
+  - Nome  
+  - E-mail  
+  - Login  
+  - Senha  
+
+- **🏷 Definir Tipo de Usuário**  
+  - Selecionar **Supervisor** no campo de tipo.  
+
+- **⚙️ Editar Permissões do Perfil**  
+  - Ajustar as permissões de acordo com as funções que o Supervisor poderá executar.  
+
+- **🔐 Autenticação em Dois Fatores (2FA)**  
+  - Ao habilitar, o sistema **obriga a confirmação do e-mail** antes do login.  
+
+         *Referência visual*: **Permissões de Supervisor**  
+
+
+#### 2️⃣ Criando um Usuário do Tipo “Operador”  
+
+     *Referência visual*: **Inserir Pessoa – Operador**  
+
+#### 🛠 Recursos de Programação  
+
+- **👤 Dados Pessoais**  
+  - Nome  
+  - Login  
+  - Senha  
+
+- **📞 Ramal**  
+  - Atribuir o número do Ramal (PA) do Operador  
+  - Atrelar a uma Equipe  
+
+- **⏳ Tempo da Próxima Chamada(s)**  
+  - Definir o intervalo para o próximo atendimento  
+
+- **🏷 Tipo de Usuário**  
+  - Selecionar **Operador**  
+
+- **⚙️ Editar Permissões**  
+  - Ajustar de acordo com as funções que o Operador poderá executar  
+
+- **🔐 Autenticação em Dois Fatores (2FA)**  
+  - Ao habilitar, será **obrigatória** a confirmação do e-mail antes do login  
+
+- **🕒 Jornada de Trabalho**  
+  - Configurar o horário do operador  
+  - Clicar em **Atualizar** para validar a configuração  
+
+ 💡 **Nota:** Se o operador fizer parte de uma equipe, poderá seguir o horário definido para a equipe ou ter um horário diferenciado, conforme necessário.  
+
+ ---
+
+###  3.3 Grupo de Ramais e Configurações  
+
+Recurso para criar **grupos de ramais** que funcionam de forma integrada, permitindo a distribuição de chamadas entre os membros do grupo de acordo com as regras definidas.  
+
+
+#### ⚡ Funcionalidades Principais  
+
+- **➕ Criação de Grupos de Ramais**  
+  - Agrupar ramais para atendimento colaborativo.  
+
+- **⚙️ Configuração de Distribuição de Chamadas**  
+  - Definir como as chamadas serão direcionadas entre os membros.  
+
+- **👥 Gerenciamento de Membros**  
+  - Adicionar ou remover ramais do grupo conforme necessário.  
+
+- **🔔 Estratégias de Toque**  
+  - **Sequencial:** Chama cada ramal em ordem definida.  
+  - **Simultâneo:** Todos os ramais tocam ao mesmo tempo.  
+  - **Aleatório:** A chamada vai para um ramal escolhido aleatoriamente.  
+
+---
+
+###  3.4 Equipes de Trabalho  
+
+Organiza **operadores em equipes** para melhor gestão e controle de produtividade.  
+
+     *Referência visual*: **Lista de Equipes**  
+
+
+#### 🚀 Criando uma Nova Equipe  
+
+1. **✏️ Inserir Nome da Equipe**  
+2. **👥 Selecionar Operadores** da lista disponível  
+3. **➡️ Migrar Operadores** para a nova equipe usando o botão central  
+4. **💾 Atualizar** para validar o grupo criado  
+
+> 💡 **Nota:** As janelas indicadas em cada grupo permitem **seleção em massa**.  
+> Para remover um operador, selecione-o e use novamente o botão central.  
+
+ *Referência visual*: **Configuração de Equipe**  
+
+
+#### 🛠 Recursos Disponíveis  
+
+- **➕ Criação de Equipes de Trabalho**  
+- **👥 Atribuição de Operadores** às equipes  
+- **🕒 Configuração de Horários de Trabalho** por equipe  
+- **⏱ Controle de Jornada e Pausas**  
+- **📊 Relatórios** de desempenho por equipe  
+
+---
+
+## 4️⃣  Terminação – Configurações  
+
+### 4.1 Troncos e Configurações  
+
+Configuração de **troncos SIP** para conectividade com operadoras e provedores de telefonia.  
+
+📞 **O que são Troncos**  
+Troncos são canais utilizados para realizar chamadas **saíntes**.  
+O discador opera com troncos `SIP` por meio de **Gateways** ou **Operadoras VoIP**.  
+
+A tela de listagem exibe:  
+- **Nome**  
+- **Endereço**  
+- **Propriedades funcionais**  
+- **Acessos para configurações**  
+- Tecla **+ Inserir novo Tronco**  
+
+ *Referência visual*: **Lista de Troncos**  
+
+
+
+#### 🛠 Recursos de Configuração  
+
+- **📄 Dados do Tronco**  
+  - Nome  
+  - Host  
+  - Usuário  
+  - Senha  
+
+- **⚙️ Configurações SIP**  
+  - Porta  
+  - Protocolo  
+  - Codec  
+
+- **🔐 Autenticação**  
+  - Métodos de autenticação SIP  
+
+- **🛣 Roteamento**  
+  - Configuração de rotas de saída  
+
+- **📡 Monitoramento**  
+  - Status e qualidade da conexão  
+
+- **🔄 Failover**  
+  - Configuração de troncos de backup  
+
+- **📏 Limitações**  
+  - Controle de chamadas simultâneas por tronco  
+
+---
+
+#### 4.1.2 ➕ Inserindo Tronco  
+
+O **Agicontact** oferece dois modos para realizar chamadas **saíntes**:  
+
+- **🌐 Host Dinâmico Desabilitado** – Chave habilitada para acessar troncos via **IP** ou **Domínio** fornecidos pela operadora.  
+- **💽 Host Habilitado** – Utiliza troncos físicos ou **chipeiras**.  
+
+📷 *Referência visual*: **Inserindo Tronco**  
+
+
+### 🛠 Recursos de Programação  
+
+1. **🆔 Nome do Tronco** – Inserir o nome identificador.  
+
+2. **🌐 Host Dinâmico**  
+   - Habilitar/Desabilitar conforme o modo escolhido.  
+   - Inserir **domínio** e **porta** ou **IP**.  
+
+3. **✂️ Corta Dígitos**  
+   - Informar a quantidade de dígitos do número tronco enviado pela operadora.  
+
+4. **➕ Insere Dígitos**  
+   - Inserir os dígitos iniciais da DID, escalados pela quantidade definida no passo anterior para envio do *tech-prefix*.  
+
+5. **🔐 Autenticação com Usuário e Senha**  
+   - Habilitar chave para requerer autenticação.  
+   - Informar **usuário** e **senha**.  
+
+6. **🎼 Codecs**  
+   - Habilitar chave para usar o **codec padrão**.  
+   - Se desabilitado, criar lista personalizada de codecs:  
+     - Marcar codecs disponíveis e mover para a lista de adicionados usando o botão central.  
+
+7. **💰 Tarifas**  
+   - Três modelos: **Brasil-fixo**, **Brasil-móvel** e **Internacional**.  
+   - Definir valor por região e **fracionamento**.  
+   - Métodos de contabilização: `4/30/6`, `3/30/6` ou `1/1/1`.  
+
+8. **⏱ Tempo Padrão**  
+   - Unidade padrão: **segundo (s)**, podendo ser alterado para **milissegundo** via lista de opções.  
+
+9. **💾 Atualizar**  
+   - Validar configurações clicando no botão **Atualizar**.  
+
+
+
+💡 **Nota:** *Codecs* (*Codificador/Decodificador*) executam o roteamento de chamadas entre o **gateway VoIP** e o **servidor de caixa postal*.  
+ **Tipos disponíveis:** `MP3` (padrão), `Windows Media Audio (WMA)`, `Group System Mobile (GSM) 06.10`, `G.711 Pulse Code Modulation (PCM)`.  
+
+---
+###  4.2 Plano de Discagem  
+
+Configura as **regras de discagem** e o **roteamento de chamadas**, permitindo total controle sobre como, quando e para onde as ligações são direcionadas.  
+
+
+#### 🛠 Funcionalidades  
+
+- **📜 Regras de Discagem**  
+  - Definição de padrões numéricos e transformações automáticas.  
+
+- **🛣 Roteamento**  
+  - Direcionamento de chamadas para troncos específicos conforme as regras definidas.  
+
+- **💰 Custos**  
+  - Configuração de tarifação por rota para controle de gastos.  
+
+- **🕒 Horários**  
+  - Criação de regras baseadas no horário de funcionamento da operação.  
+
+- **📌 Prioridades**  
+  - Definição da ordem de tentativas de roteamento em caso de múltiplas rotas.  
+
+- **⛔ Bloqueios**  
+  - Bloqueio de números ou padrões não autorizados.  
+
+---
+
+#### 4.2.1 📋 Lista dos Planos de Discagem  
+
+Os **Planos de Discagem** utilizam **regras pré-definidas** para roteamento de chamadas e acesso a troncos.  
+A escolha do plano considera as **estratégias operacionais** da empresa.  
+
+O sistema oferece um **plano padrão**, com regras de roteamento por **regiões**, mas o administrador pode criar e habilitar **modelos customizados** com regras específicas.  
+
+📷 *Referência visual*: **Lista de Planos de Discagem**  
+
+
+### 📑 Exibição na Lista  
+
+- **🆔 Nome do Plano**  
+- **⚙️ Configurações** com acesso rápido para:  
+  - ✏️ **Editar Plano de Discagem**  
+  - 🔀 **Editar Regras de Roteamento**  
+  - 🗑 **Deletar Plano**  
+
+- **➕ Botão "Inserir novo Plano de Discagem"**  
+  - Permite adicionar novos planos conforme as necessidades da operação.  
+
+---
+#### 4.2.2 ➕ Inserindo Novo Plano de Discagem *(Instância de acesso do Administrador)*  
+
+O botão **+ Inserir novo Plano de Discagem** abre a tela de inserção.  
+
+1. **✏️ Inserir Nome do Plano**  
+   - Digitar o nome identificador do novo plano.  
+
+2. **💾 Atualizar**  
+   - Após inserir o nome, clicar no botão **Atualizar** para salvar e validar a criação do plano.  
+
+📷 *Referência visual*: **Inserindo Novo Plano de Discagem**  
+
+---
+
+#### 4.2.3 🔗 Inserindo Tronco no Plano de Discagem  
+
+O botão **“Editar regras de Roteamento”** na lista de Planos acessa a área de configurações.  
+
+Na seção **Região** é exibido o **Plano Padrão**, composto por três regiões:  
+- 📞 **Brasil Fixo**  
+- 📱 **Brasil Móvel**  
+- 🌍 **Internacional**  
+
+Cada região possui botões de configuração próprios.  
+O campo **Filtro** permite localizar troncos para uso nas programações.  
+
+📷 *Referência visual*: **Inserindo Tronco no Plano de Discagem**  
+
+
+### 🛠 Programação Individual por Região  
+
+1. **📌 Selecionar Região**  
+   - Marcar individualmente a linha da região desejada (ex.: **Brasil Fixo**).  
+
+2. **➕ Inserir Tronco**  
+   - Clicar em **Inserir** para abrir as configurações.  
+
+3. **🎯 Configurar Tronco**  
+   - Selecionar o **Tronco**  
+   - Definir **Prioridade**  
+   - Clicar em **Inserir** para aplicar  
+
+4. **📋 Visualizar Tronco Configurado**  
+   - O tronco será exibido na lista da região selecionada.  
+   - Repetir o processo para as demais regiões conforme necessário.  
+
+5. **⚙️ Opções do Botão “Inserir Tronco”**  
+   - 🗑 **Remover Tronco**  
+   - ➕ **Inserir Tronco**  
+   - 🔀 **Alterar Prioridades**  
+
+
+
+### 🔍 Filtro  
+Permite pesquisar ações ou troncos específicos para agilizar as configurações.  
+
+📷 *Referência visual*: **Exemplo de Regras de Roteamento**  
+
+
+💡 **Exemplo Prático**  
+Na configuração da região **Brasil Móvel**, há dois troncos: **01** e **02**.  
+O **Tronco 01** também é utilizado na região **Brasil Fixo**, mas com **prioridade diferente**.  
+
+---
+
+### 5️⃣ 5. Números Entrantes  
+
+#### 5.1 📋 Lista de Números Entrantes  
+
+Gerencia **DIDs** (*números diretos*) para o recebimento de chamadas.  
+
+📷 *Referência visual*: **Lista de DIDs**  
+
+
+
+#### 🛠 Recursos Disponíveis  
+
+- **📄 Lista de Números DID Cadastrados**  
+  - Exibe todos os números diretos registrados no sistema.  
+
+- **📶 Status de Cada Número**  
+  - Indicação se está **ativo** ou **inativo**.  
+
+- **🎯 Destino Configurado para Cada DID**  
+  - Mostra para onde as chamadas recebidas serão encaminhadas.  
+
+- **🔍 Filtros de Busca**  
+  - Pesquisa por número ou por destino para facilitar a localização.  
+
+- **📥📤 Importação / Exportação de Números**  
+  - Permite cadastrar em massa ou exportar a lista existente.  
+
+---
+#### 5.2 ⚙️ Configurando Números Entrantes  
+
+Configuração detalhada de cada **número entrante** (DID), definindo para onde e como as chamadas recebidas serão direcionadas.  
+
+📷 *Referência visual*: **Configuração de DID**  
+
+
+
+### 🎯 Tipos de Apontamentos (Destinos)  
+
+1. ☎️ **Ramal** – Direciona a chamada para um ramal específico.  
+2. 📋 **Fila** – Encaminha para fila de atendimento configurada.  
+3. 🗂 **URA** – Envia para Unidade de Resposta Audível.  
+4. 🔀 **Fluxo de Chamadas** – Segue um fluxo predefinido de atendimento.  
+5. 📮 **Caixa Postal** – Grava a mensagem e envia para o e-mail configurado.  
+6. 🌐 **Número Externo** – Encaminha para telefone fora do sistema.  
+7. 👥 **Conferência** – Envia para sala de conferência definida.  
+8. 📡 **Grupo de Ramais** – Distribui a chamada entre ramais do grupo.  
+
+
+
+### 🛠 Configurações Adicionais  
+
+- **🕒 Horários de Funcionamento**  
+  - Define o período de operação do número entrante.
+- **📅 Feriados**  
+  - Determina o comportamento das chamadas recebidas em dias não úteis.  
+
+- **🆔 Caller ID**
+  - Configura a identificação que será exibida para o destinatário.
+
+- **🎙 Gravação**  
+  - Ativa a gravação automática de chamadas recebidas.  
+
+---
+
+#### 5.2.1 ⏰ Configuração do Horário de Funcionamento  
+
+Configura e gerencia os períodos em que o número entrante estará ativo, bem como o comportamento fora desses horários.  
+
+📷 *Referência visual*: **Configuração de Horário de Funcionamento para DID**  
+
+
+
+### 🗓 Recursos de Programação  
+
+1. **🔘 Habilitar a Chave "Horário de Funcionamento"**  
+   - Ativa o controle de horários para o número entrante.  
+
+2. **📅 Programar Dias da Semana**  
+   - Clique sobre os dias desejados para incluí-los no período de funcionamento.  
+
+3. **🕒 Definir Período de Funcionamento**  
+   - Ajuste os horários de início e término clicando na janela de configuração e definindo os valores desejados.  
+
+4. **⛔ Ação Fora de Funcionamento**  
+   - Escolha qual ação será executada quando a chamada ocorrer fora do horário configurado.  
+
+5. **🎯 Destino da Ação Fora de Funcionamento**  
+   - No menu **Destino**, selecione para onde a chamada será direcionada nesses casos.  
+
+6. **🏖 Configuração de Feriados**  
+   - Escolha um feriado na lista e clique no botão **Atualizar** para confirmar a configuração.  
+
+💡 **Nota:**
+Se a chave estiver **desabilitada**, o sistema seguirá o apontamento padrão definido no DID, sem aplicar regras de horário.  
+
+---
+## 6️⃣ Recursos PABX
+
+### 6.1 🎵 Lista de Arquivos de Áudio  
+
+Os arquivos de áudio são utilizados em diversas funcionalidades do sistema.  
+Nesta tela, é possível visualizar todos os áudios disponíveis, configurar, editar ou importar novos arquivos de outras fontes.  
+
+📷 *Referência visual*: **Lista de Arquivos de Áudio**  
+
+
+
+### 📂 Seções da Interface  
+
+- **📁 Arq. Áudio** – Área principal para gerenciamento dos arquivos.  
+- **📋 Filas** – Áudios específicos para filas de atendimento.  
+- **🗂 Fluxos de Chamada** – Áudios utilizados em URAs.  
+- **🎶 Grupo de Espera** – Músicas reproduzidas durante o tempo de espera.  
+- **☎️ Mesa Operadora** – Áudios exclusivos para os operadores.  
+
+
+
+### 🎚 Controles Disponíveis por Arquivo  
+
+- **▶️ Reprodução** – Toca o áudio exibindo a duração.  
+- **🔊 Volume** – Ajusta o nível de som.  
+- **⚙️ Configurações** – Acessa opções adicionais do arquivo.  
+- **✏️ Edição** – Permite alterar o conteúdo ou substituir o áudio.  
+- **🗑️ Exclusão** – Remove o arquivo da lista.  
+
+---
+
+#### 6.1.2 🎤 Inserindo Novo Áudio  
+
+O botão **+ Inserir novo Áudio** abre a tela de inserção.  
+Nesta área, é possível importar áudios prontos ou criar áudios a partir de texto (TTS).  
+Os arquivos de áudio podem ser organizados em **Grupos de Áudio**, permitindo que sejam compartilhados em diferentes pontos de uso do sistema, sempre alinhados às estratégias de atendimento da empresa.  
+
+📷 *Referência visual*: **Inserindo Novo Áudio**  
+
+
+
+### 📥 Inserir Arquivo de Áudio via Importação  
+
+1. **📌 Selecionar o Tipo de Áudio**  
+   - Marque a opção **Importar áudio**.  
+
+2. **📂 Escolher o Arquivo**  
+   - Clique em **Selecione o Áudio** para abrir o explorador de arquivos do sistema operacional.  
+
+3. **🗄 Localizar e Importar**  
+   - No explorador, escolha a pasta e selecione o arquivo desejado.  
+
+4. **🏷 Nome Automático**  
+   - O nome do arquivo será exibido automaticamente no campo **Nome**.  
+
+5. **✏️ Editar Nome**  
+   - Se necessário, altere ou ajuste o nome do arquivo no campo exibido.  
+
+6. **📍 Definir Locais de Uso**  
+   - Marque as opções de onde o áudio será utilizado.  
+
+7. **🔄 Uso Múltiplo**  
+   - O mesmo áudio pode ser vinculado a vários locais simultaneamente.  
+
+8. **✅ Confirmar Inserção**  
+   - Clique em **Inserir** para salvar a configuração.  
+
+---
+
+#### 6.1.3 🗣️ Criando Áudios a partir de Texto (TTS)  
+
+Permite gerar arquivos de áudio utilizando a função **Texto para Fala (TTS)**, ideal para mensagens dinâmicas e personalizadas.  
+
+📷 *Referência visual*: **Criando Áudio com Texto para Fala (TTS)**  
+
+
+### 🛠 Etapas para Criação  
+
+1. **🔘 Ativar Texto para Fala**  
+   - Marque a opção **Texto para fala**.  
+
+2. **⌨️ Inserir o Texto**  
+   - Digite o conteúdo de acordo com o tipo de aplicação (URA, fila, mensagem institucional etc.).  
+
+3. **🎧 Testar o Áudio**  
+   - Clique em **Ouvir áudio** para pré-escutar.  
+   - Ajuste **velocidade** e **tom** usando o botão indicado.  
+
+4. **🏷 Nomear o Arquivo**  
+   - Insira um nome claro e identificável para o áudio gerado.  
+
+5. **📍 Definir Locais de Uso**  
+   - Marque as opções onde o áudio será aplicado.  
+
+6. **✅ Confirmar Criação**  
+   - Clique em **Inserir** para salvar o arquivo, que será exibido na lista da tela inicial.  
+
+---
+
+### 6.2 📞 Filas e Configurações  
+
+As **filas** são recursos que recebem chamadas originadas pelos **números entrantes** e as encaminham para os destinos configurados.  
+
+O sistema disponibiliza os seguintes **tipos de filas**:  
+- **👥 Simultâneos** – Direciona a chamada para vários ramais ao mesmo tempo.  
+- **🔁 Sequencial** – Encaminha para ramais seguindo uma lista predefinida.  
+- **📌 Ordem de Inserção** – Segue a ordem de entrada dos ramais na fila.  
+- **🎲 Aleatório** – Distribui a chamada para um ramal escolhido aleatoriamente.  
+
+
+
+### 🎧 Interface Inicial  
+No recurso de **Filas**, a **primeira interação** entre o originador da chamada e o destino é feita por meio do **Áudio de Recepção**, que pode ser configurado de acordo com a estratégia de atendimento da empresa.  
+
+📷 *Referência visual*: **Lista e Configuração de Filas**  
+
+---
+
+#### 6.2.1 🖥️ Modos de Exibição das Telas  
+
+📷 *Referência visual*: **Filas de Atendimento – Modo Lista**  
+
+---
+
+##### 6.2.1.1 📋 Modo Lista  
+
+Neste modo, a tela exibe:  
+- **Nome** e **Tipo** da Fila.  
+- **Áudio ao chamar** – título do áudio (música ou anúncio) associado.  
+- Área de **Configurações** com botões para **Editar** ✏️ e **Deletar** 🗑️ a Fila.  
+- Botão no canto superior direito para alterar o modo de exibição: **"Ir para o Modo Detalhado"**.  
+- Botão na parte inferior da tela para **➕ Inserir nova Fila**.  
+
+---
+
+### 🗂️ Elementos da Interface  
+- **📞 Filas:** Seção principal de gerenciamento.  
+- **🔀 Fluxos de Chamada:** Integração com URAs.  
+- **⏳ Grupo de Espera:** Configurações de espera para chamadas.  
+- **🏷️ Nome:** Identificação da fila.  
+- **⚙️ Tipo:** Definição do modo de atendimento (Sequencial, Simultâneo, etc.).  
+- **🎵 Áudio ao chamar:** Música de espera ou anúncio de recepção.  
+- **🔧 Configurações:** Acesso rápido para edição e exclusão.  
+
+---
+
+#### 6.2.1.2 📊 Modo Detalhado  
+
+📷 *Referência visual*: **Filas de Atendimento – Modo Detalhado**  
+
+
+Neste modo, cada **fila** é exibida em um **painel individual**, que apresenta:  
+- **Tarja colorida** no topo com **Número**, **Nome** e **Tipo** da fila.  
+- **Painel inferior** com informações-chave:  
+  - 📈 **Número de Chamadas** recebidas.  
+  - 👥 **Operadores** associados à fila.  
+  - ☎️ **Chamadas Atendidas**.  
+  - 🔢 **Total de Chamadas** processadas.  
+  - 📊 **Dados de Desempenho** (índices de qualidade e eficiência).  
+
+
+### 📋 Painel Lateral Direito – Desempenho dos Operadores  
+Apresenta o registro detalhado de desempenho dos operadores daquela fila, incluindo métricas individuais.
+
+
+💡 **Nota:**  
+- **TME** – Tempo Médio de Espera (em segundos) para atendimento.  
+- **TMA** – Tempo Médio de Atendimento (em segundos) por Ramal/Operador.  
+
+---
+
+#### 6.2.2 🆕 Criando Filas  
+
+O botão **➕ "Inserir nova Fila"** abre a tela de configuração para criação de filas.  
+
+📷 *Referência visual*: **Criando Fila**  
+
+---
+
+### ⚙️ Recursos de Programação  
+
+1. **🏷️ Nome e Número da Fila**  
+   - Inserir o **Nome** e o **Número** identificador da fila.  
+
+2. **📌 Tipo de Fila** – Selecionar conforme a estratégia desejada:  
+   - **🔁 Sequencial** – Toca na ordem definida em **Ramais na Fila**. Em novas chamadas, inicia no próximo ramal da sequência.  
+   - **📥 Ordem de Inserção** – Toca sempre no primeiro ramal listado em **Ramais na Fila**.  
+   - **🎲 Aleatório** – Seleciona aleatoriamente um ramal da fila.  
+   - **👥 Simultâneo** – Toca em todos os ramais da fila ao mesmo tempo.  
+
+3. **🎵 Música de Espera**  
+   - Escolher da lista a música que será reproduzida até o atendimento.  
+
+4. **⏱️ Tempo Máximo na Fila**  
+   - Definir o tempo (em segundos) que a chamada permanecerá na fila antes de ser encerrada automaticamente.  
+
+5. **📞 Tempo Chamando o Ramal**  
+   - Definir o tempo (em segundos) que o destino receberá o toque.  
+   - Se houver mais de um ramal, após o tempo expirar, a chamada seguirá para o próximo até atingir o **Tempo Máximo na Fila**.  
+
+6. **🔊 Áudio de Anúncio da Fila para o Atendente** *(opcional)*  
+   - Ao habilitar, informa ao atendente qual fila originou a chamada.  
+   - Selecionar o áudio na lista.  
+
+7. **🕒 Horário de Funcionamento** *(opcional)*  
+   - Define horários de funcionamento e de indisponibilidade da fila.  
+
+8. **📋 Criar Fila de Ramais**  
+   - Marcar os ramais disponíveis e transferi-los para a fila a ser criada.  
+
+9. **➡️ Encaminhamento de Chamadas** *(opcional)*  
+   - Ao habilitar, disponibiliza funções de redirecionamento conforme configuração.  
+
+---
+
+### 6.3 📡 Fluxos de Chamadas  
+
+#### 6.3.1 🗂️ Menu Lista de Fluxos de Chamadas  
+
+O **modo Fluxo** utiliza **blocos inteligentes** com funções do PABX para criar, de forma **visual e intuitiva**, as estratégias de funcionamento do atendimento.  
+
+A interação é simples e ágil: basta **clicar e arrastar** os blocos para a área de programação, permitindo configurar fluxos com rapidez e eficiência.  
+
+
+### 🖥️ Tela Inicial  
+Exibe a **lista de Fluxos** disponíveis. Na coluna de **Configurações**, estão os botões para:  
+- ✏️ **Editar** o fluxo.  
+- 🏷️ **Renomear** o fluxo.  
+- 🗑️ **Deletar** o fluxo.  
+
+Na parte inferior, há o botão **➕ Inserir Fluxos** para criar novos fluxos de chamadas.  
+
+📷 *Referência visual*: **Lista de Fluxos de Chamada**  
+
+---
+##### 6.3.2 🆕 Inserir Identificação do Fluxo  
+
+O botão **➕ "Inserir novo Fluxo"** abre a tela inicial de criação.  
+
+📷 *Referência visual*: **Inserir Identificação do Fluxo**  
+
+
+### 🛠 Passos para Configuração  
+
+1. **🏷 Nome e Número do Fluxo**  
+   - Preencha os campos **Nome** e **Número** do fluxo.  
+
+2. **💾 Confirmar Inserção**  
+   - Clique em **Inserir** para validar a criação.  
+
+🔍 **Resultado:**  
+O título do novo fluxo será exibido na **Lista de Fluxos**.  
+
+---
+
+#### 6.3.3 🏗️ Criando Fluxo na Área de Construção  
+
+Após selecionar o fluxo na **Lista de Fluxos**, clique no botão **✏️ Editar** para acessar as configurações.  
+
+📷 *Referência visual*: **Área de Construção do Fluxo**  
+
+
+### 🛠 Etapas de Montagem do Fluxo  
+
+1. **🗒 Área Quadriculada**  
+   - Espaço principal onde será feita a construção visual do fluxo.  
+   - Permite posicionar e conectar os blocos para definir a lógica do atendimento.  
+
+2. **⚙️ Campo “Ações Disponíveis”**  
+   - Lista de blocos de **ações** que podem ser adicionados ao fluxo.  
+   - Exemplo: direcionar chamadas, reproduzir áudios, redirecionar para filas, etc.  
+
+3. **📅 Campo “Eventos Disponíveis”**  
+   - Lista de blocos de **eventos** que podem ser usados para iniciar ou modificar o fluxo.  
+   - Exemplo: chamada recebida, horário específico, condição lógica, etc.  
+
+4. **💾 Botão “Atualizar”**  
+   - Clique após **cada alteração** para salvar a edição.  
+
+---
+
+### 6.3.4 ⚙️ Blocos de Ações e Propriedades  
+
+Cada bloco possui uma função específica no fluxo e configurações próprias.  
+Abaixo estão os principais blocos e suas finalidades:  
+
+1. **📞 Bloco Nova Chamada**  
+   - Inicia um novo atendimento ou fluxo.  
+   - Ponto de entrada padrão para chamadas recebidas.  
+
+2. **🔊 Bloco Ação Áudio**  
+   - Reproduz mensagens gravadas ou arquivos de áudio no fluxo.  
+
+3. **🔀 Bloco de Ação Condicional**  
+   - Cria ramificações lógicas com base em regras ou condições.  
+
+4. **📴 Bloco de Ação Desligar**  
+   - Encerra a chamada imediatamente no ponto em que é inserido.  
+
+5. **⏳ Bloco Ação Espera**  
+   - Adiciona tempo de espera antes de executar a próxima ação.  
+
+6. **📂 Bloco Ação Fila**  
+   - Direciona a chamada para uma fila de atendimento.  
+
+7. **🎙️ Bloco Ação Gravar**  
+   - Habilita gravação da ligação para fins de registro ou auditoria.  
+
+8. **🌐 Bloco Ação Post/Gets**  
+   - Faz requisições HTTP para integrar com sistemas externos (APIs).  
+
+9. **☎️ Bloco Ação PSTN**  
+   - Encaminha a chamada para um número externo via rede pública de telefonia.  
+
+10. **📠 Bloco Ação Ramal**  
+    - Transfere a ligação para um ramal interno específico.  
+
+11. **🎛️ Bloco URA**  
+    - Cria menus de opções para navegação do cliente (ex.: “Digite 1 para...”).  
+
+12. **📌 Bloco Ação Variável**  
+    - Armazena ou manipula valores de variáveis utilizadas no fluxo.  
+
+
+💡 **Dica**: ao inserir qualquer bloco, clique nele para acessar e configurar suas **propriedades específicas** — como áudio a ser reproduzido, condição de roteamento ou tempo de espera.
+
+#### 6.3.4.1 📞 Bloco Nova Chamada  
+
+O Bloco de inicialização Nova Chamada está relacionado às chamadas entrantes através dos DIDs ou Saintes através de troncos.
+
+📷 *Referência visual*: **Bloco Nova Chamada**  
+
+ 
+💡 **Dica**: Verifique se o *Nova Chamada* está corretamente configurado para não perder chamadas por falha na identificação da origem.
+
+    [Referência de Imagem: Bloco Nova Chamada]
+
+#### 6.3.4.2 🔊 Bloco Ação Áudio
+O bloco de áudio é utilizado para reproduzir sons.
+
+    [Referência de Imagem: Bloco de Ação Áudio]
+
+#### 6.3.4.3 🔀 Bloco de Ação Condicional
+A ação tipo Condicional possibilita executar comparações entre duas variáveis.
+
+    [Referência de Imagem: Bloco de Ação Condicional]
+
+#### 6.3.4.4 📴 Bloco de Ação Desligar
+Bloco de finalização do fluxo ou de uma instrução programada.
+
+    [Referência de Imagem: Bloco de Ação Desligar]
+
+#### 6.3.4.5 ⏳ Bloco Ação Espera
+O bloco **Espera** executa um delay da função de entrada.
+
+    [Referência de Imagem: Bloco de Ação Espera]
+
+#### 6.3.4.6 📂 Bloco Ação Fila
+Quando a entrada **Input** é ativada, o bloco executa a **Fila** selecionada.
+
+    [Referência de Imagem: Bloco de Ação Fila]
+
+#### 6.3.4.7 🎙️ Bloco Ação Gravar
+Quando a entrada **Input** é ativada, o bloco inicia a gravação da chamada.
+
+    [Referência de Imagem: Bloco de Ação Gravar]
+
+#### 6.3.4.8 🌐 Bloco Ação Post/Gets
+O Bloco tem funções de envio ou recepção de dados (`POST` ou `GET`).
+
+    [Referência de Imagem: Bloco de Ação Post/Get]
+
+#### 6.3.4.9 ☎️ Bloco Ação PSTN
+O Bloco **Plano de Discagem** executa e monitora o Plano selecionado.
+
+    [Referência de Imagem: Bloco de Ação PSTN]
+
+#### 6.3.4.10 📠 Bloco Ação Ramal
+Encaminha a chamada para um ramal de destino.
+
+    [Referência de Imagem: Bloco de Ação Ramal]
+
+#### 6.3.4.11 🎛️ Bloco URA
+Executa uma Unidade de Resposta Audível (URA).
+
+    [Referência de Imagem: Bloco de Ação URA]
+
+#### 6.3.4.12 📌 Bloco Ação Variável
+Armazena um valor em uma variável.
+
+    [Referência de Imagem: Bloco de Ação Variável]
+
+##### 6.3.5 Recursos para Eventos
+São eventos de operações realizadas pelo sistema ou pelos operadores.
+
+    [Referência de Imagem: Blocos de Eventos]
+
+##### 6.3.6 Exemplo de Construção de Fluxos com o uso de URA
+Exemplo prático de como montar um fluxo de chamadas usando os blocos de ação.
+
+    [Referência de Imagem: Exemplo de Fluxo com URA]
+
+### 6.4 Grupo de Espera
+#### 6.4.1 Lista do Grupo de Música de espera e configuração
+São grupos de arquivos de áudios criados para atender as funcionalidades programadas no PABX.
+
+    [Referência de Imagem: Grupo de Música de Espera]
+    [Referência de Imagem: Opções Padrão e Personalizada da Música de Espera]
+
+##### 6.4.2 Criar Novo Grupo de Espera e Inserir áudio
+Passos para criação de um novo grupo personalizado de música de espera.
+
+    [Referência de Imagem: Passos para Criar Grupo de Música de Espera]
+
+#### 6.5 Números Internos
+O número interno é a identificação que cada recurso do PABX recebe manualmente.
+
+    [Referência de Imagem: Lista de Números Internos]
+
+#### 6.6 Salas de Conferência
+##### 6.6.1 Lista de Salas de Conferências
+O sistema permite criar salas para conferências com vários atores internos e externos.
+
+    [Referência de Imagem: Lista de Salas de Conferência]
+
+##### 6.6.2 Criar Salas de Conferências
+Processo de criação de novas salas de conferência.
+
+    [Referência de Imagem: Criando Sala de Conferência]
+
+##### 6.6.3 Acessos e utilização da Sala de Conferência
+**1- Acessos interno através dos Ramais:**
+
+    [Referência de Imagem: Acesso Interno à Sala de Conferência]
+
+**2- Acessos à sala de conferência através do DID:**
+
+    [Referência de Imagem: Acesso Externo (DID) à Sala de Conferência]
+
+#### 6.7 URAS e configurações
+##### 6.7.1 Lista de URAS
+URAS são recursos de apontamentos inteligentes para recepcionar chamadas.
+
+    [Referência de Imagem: Lista de URAs]
+
+##### 6.7.2 Criando URAS
+Para inserir URA clicar no botão **+Inserir nova URA**.
+
+    [Referência de Imagem: Criando URA - Dados e Horário]
+    [Referência de Imagem: Criando URA - Ações]
+
+### 7. Configurações gerais
+#### 7.1 Centro de Custos
+##### 7.1.1 Lista Centro de Custos
+Recursos destinados a aplicar tarifas e contabilizar chamadas.
+
+    [Referência de Imagem: Lista de Centro de Custos]
+
+##### 7.1.2 Inserindo Centro de Custos na Lista
+O botão **+Inserir novo centro de custo** acessa a tela de configuração.
+
+    [Referência de Imagem: Inserindo Centro de Custo]
+
+##### 7.1.3 Habilitando e Configurando o Centro de Custos
+Para configurar, habilitar a chave **Tarifação**.
+
+    [Referência de Imagem: Configurando Centro de Custo com Ramais e Tarifação]
+
+#### 7.2 Configurações gerais
+##### 7.2.1 Configuração "Geral"
+São configurações que atuam nas funcionalidades do PABX.
+
+    [Referência de Imagem: Configurações Gerais - Principal]
+    [Referência de Imagem: Configuração de Prefixo]
+    [Referência de Imagem: Configuração de Exportação SSH SFTP]
+    [Referência de Imagem: Configuração de Exportação SSH RSYNC]
+    [Referência de Imagem: Configuração de Exportação Google Drive]
+
+### 8. Campanhas
+#### 8.1 Lista de Campanhas
+Gerenciamento de campanhas de discagem ativa.
+
+    [Referência de Imagem: Lista de Campanhas]
+
+#### 8.2 Criando Campanhas
+O botão **+Inserir nova Campanha** acessa a tela de edição.
+
+    [Referência de Imagem: Fluxograma - Sequência Modelo Ativa Padrão]
+    [Referência de Imagem: Descrição da Campanha]
+    [Referência de Imagem: Funcionamento da Campanha]
+    [Referência de Imagem: Modo de Discagem]
+    [Referência de Imagem: Classificador (Detecção de Máquina)]
+    [Referência de Imagem: Configurando Fila da Campanha]
+    [Referência de Imagem: Configurando URA Inteligente]
+    [Referência de Imagem: Habilitação do Bloqueio de Números]
+    [Referência de Imagem: Integrações do Sistema]
+    [Referência de Imagem: Botão Salvar]
+    [Referência de Imagem: Fluxograma - Campanha Preview]
+    [Referência de Imagem: Fluxograma - Campanha Receptiva]
+    [Referência de Imagem: Fluxograma - Campanha Callback]
+
+#### 8.3 Campanhas - Agendamentos
+##### 8.3.1 O menu Agendamento
+Tela utilizada para verificar, elaborar ou alterar os agendamentos de campanhas.
+
+    [Referência de Imagem: Tela de Agendamentos]
+
+##### 8.3.2 Monitorando agendamentos
+A tela de monitoramento traz recursos distribuídos nos campos.
+
+    [Referência de Imagem: Monitoramento de Agendamentos]
+
+#### 8.4 Campanhas - Lista de Áudios
+Gerenciamento de áudios específicos para campanhas.
+
+    [Referência de Imagem: Lista de Arquivos de Áudio para Campanhas]
+
+#### 8.5 Campanhas - Números Bloqueados
+##### 8.5.1 Lista de Números bloqueados
+São os números bloqueados no mailing.
+
+    [Referência de Imagem: Lista de Números Bloqueados]
+
+##### 8.5.2 Inserindo Número de bloqueio por Arquivo
+O sistema exibe dois tipos de inserção, tipo “Arquivo” ou “Lista de Números”.
+
+    [Referência de Imagem: Bloqueio por Arquivo]
+
+##### 8.5.3 Inserindo Números por Lista de números
+No tipo inserção por Lista de Números, deverá ser inserido os números empilhados.
+
+    [Referência de Imagem: Bloqueio por Lista de Números]
+
+#### 8.6 Campanhas - Lista de Classificação e Renitência
+##### 8.6.1 Lista de Classificação e Renitência
+A Lista é utilizada para criar ou editar classificação e renitência.
+
+    [Referência de Imagem: Lista de Classificação e Renitência]
+
+##### 8.6.2 Inserindo Classificações e Renitência
+O botão **+Inserir Nova Lista** acessa a tela de configuração.
+
+    [Referência de Imagem: Inserindo Lista de Classificação e Renitência]
+    [Referência de Imagem: Configurando Evento Produtivo]
+    [Referência de Imagem: Configurando Evento Agendamento]
+    [Referência de Imagem: Configurando Evento Improdutivo]
+    [Referência de Imagem: Configurando Evento Falha na Discagem]
+    [Referência de Imagem: Configurando Evento Não Classificados]
+
+
+### 9. Relatórios
+#### 9.1 Relatórios de Filas de Atendimento
+Os relatórios são gerados pelo sistema a partir do campo Filtro.
+
+    [Referência de Imagem: Relatório de Filas de Atendimento]
+
+#### 9.2 Relatórios de Ocupação dos Operadores
+Monitoramento de produtividade e ocupação.
+
+    [Referência de Imagem: Relatório de Ocupação dos Operadores]
+
+#### 9.3 Relatórios de Operação
+Análise de desempenho de campanhas.
+
+    [Referência de Imagem: Relatório de Operação dos Operadores]
+
+#### 9.4 Relatórios de ASR.
+Os relatórios são gerados a partir dos "Filtros" e exibe as taxas dos atendimentos.
+
+    [Referência de Imagem: Relatório de ASR]
+
+#### 9.5 Relatórios das ações dos Operadores.
+Relatórios gerados a partir do campo Filtro, os dados listados contém informações sobre as ações e os tipos com o tempo de duração.
+
+    [Referência de Imagem: Relatório de Ações dos Operadores]
+
+#### 9.6 Relatórios da Fila de atendimento da Campanha.
+São gerados pelo sistema a partir do campo Filtro, os dados coletados são quantitativos para análise do responsável pela campanha.
+
+    [Referência de Imagem: Relatório da Fila de Atendimento da Campanha]
+
+#### 9.7 Download
+Esta página lista os solicitantes com os arquivos enviados.
+
+    [Referência de Imagem: Tela de Downloads]
+
+### 10. Integrações
+#### 10.1 Ações de Integração
+O sistema pode ser integrado a outros aplicativos através de links de integração.
+
+#### 10.2 API de Integração
+As (API), Interfaces de programação das aplicações tem padrões de relacionamento através de rotinas pré estabelecidas.
+
+#### 10.3 Integração Exact Spotter
+O Sistema pode ser integrado ao ExactSpotter, solução de CRM e de gerenciamento de funil de vendas.
+
+#### 10.4 Integração FINAZ
+Habilitar a chave para utilização do recurso.
